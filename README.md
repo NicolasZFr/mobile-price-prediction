@@ -97,4 +97,9 @@ After training and testing all the aforementioned models, evaluating their accur
             </tr>
         </tbody>
     </table>
-</div>
+</div> 
+
+### Conclusión
+Se concluyó con base en la evaluación de modelos, que el Adaboost tuvo el mejor rendimiento en este caso. En la siguiente matriz de confusión, se verá la precisión del modelo comparando las etiquetas reales y predichas:
+
+<img src='./images/confussionmatrix.png'> 
