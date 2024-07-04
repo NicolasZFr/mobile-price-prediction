@@ -29,7 +29,9 @@ In this case, as the data is already clean, a data clean is not necessary
 ### Price Trend Based on ram(with Box Plot)
 We import seaborn and create a plot with "range_price" on the X-axis and "ram" on the Y-axis.  
 
-<img src='./images/pricevsram.png'>  
+<p align="center">
+    <img src='./images/pricevsram.png' style='width:500px'>
+</p>
 
 In this case, it was observed that the correlation between RAM and price was the only determinant, and as can be seen in this box plot, despite the outliers, the boxes tend to exhibit a normal behavior according to the price range.
 
@@ -102,4 +104,6 @@ After training and testing all the aforementioned models, evaluating their accur
 ### Conclusión
 Se concluyó con base en la evaluación de modelos, que el Adaboost tuvo el mejor rendimiento en este caso. En la siguiente matriz de confusión, se verá la precisión del modelo comparando las etiquetas reales y predichas:
 
-<img src='./images/confussionmatrix.png'> 
+<p align="center">
+    <img src='./images/confussionmatrix.png' style='width:500px'>
+</p>
